@@ -13,12 +13,12 @@ var players, player1, player2, player3, player4;
 var track, player1_img, player2_img, player3_img, player4_img,obstacleImg;
 
 function preload(){
-  track = loadImage("track.png");
-  player1_img = loadImage("racingGamePlayer1.png");
+  track = loadImage("track.jpg");
+  player1_img = loadImage("by.png");
   player2_img = loadImage("player2.png");
   player3_img = loadImage("player3.png");
   player4_img = loadImage("player4.jpg");
-  obstacleImg = loadImage("obstacle.jpg");
+  obstacleImg = loadImage("hurdle.png");
   ground = loadImage("ground.png");
 }
 

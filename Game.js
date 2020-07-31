@@ -40,20 +40,20 @@ class Game {
     //player4.addImage(player4_img);
     players = [player1, player2, player3, player4];
 
-    obstacle1 = createSprite(400,500);
+   // obstacle1 = createSprite(400,500);
     //obstacle1.addImage(obstacleImg);
-    obstacle2 = createSprite(600,500);
+    //obstacle2 = createSprite(600,500);
     //obstacle2.addImage(obstacleImg);
-    obstacle3 = createSprite(800,500);
+    //obstacle3 = createSprite(800,500);
     //obstacle3.addImage(obstacleImg);
-    obstacle4 = createSprite(1000,500);
+    //obstacle4 = createSprite(1000,500);
     //obstacle4.addImage(obstacleImg)
-    console.log(obstacle2);
+    /*console.log(obstacle2);
     console.log(obstacle3);
     console.log(obstacle4);
 
     obstacle1.velocityY = 2;
-    /*obstacle2.velocityY = -2;
+    obstacle2.velocityY = -2;
     obstacle3.velocityY = -2;
     obstacle4.velocityY = -2;
     */
@@ -117,11 +117,12 @@ class Game {
       Player.updatePlayersAtEnd(player.rank);
     }
    
-    if (players.x-obstacle.x<obstacle.width/2+players.width/2 && players.y-obstacle.y<obstacle.width/2+players.width/2
+   /* if (players.x-obstacle.x<obstacle.width/2+players.width/2 && players.y-obstacle.y<obstacle.width/2+players.width/2
        && obstacle.x-players.x<players.x+obstacle.width/2 && obstacle.y-players.y<players.y+obstacle.width/2)
        {
         obstacle.destroy();
        }
+   */
 
     drawSprites();
   }
